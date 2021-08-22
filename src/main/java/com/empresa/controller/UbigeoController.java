@@ -8,12 +8,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class UbigeoController {
 
+	
 	@RequestMapping("/")
 	public String ver() {
 		return "ubigeoJquery";
 	}
 	
-	
+
 	
 }
 
